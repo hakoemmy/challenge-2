@@ -1,70 +1,57 @@
-# Getting Started with Create React App
+# challenge-2
+> Search photos by album ID
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Getting Started
 
-## Available Scripts
+The project is composed of two different parts:
+- *UI (User Interface)*
+- *API Endpoints*  
 
-In the project directory, you can run:
+### Prerequisites
 
-### `npm start`
+* UI 
+   * Any Web Browser (We recommend using Google Chrome)
+   * Text Editor (We recommend using VSCode)
+* API Endpoints
+   * You might use postman to test the endpoints
+  
+### Cloning the project
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+* Simply [Clone](https://github.com/hakoemmy/challenge-2/archive/refs/heads/main.zip) The project
+* OR use git bash:
+   1. First [download](https://git-scm.com/downloads) git bash
+   2. Install it
+   3. Clone it by running `git clone https://github.com/hakoemmy/challenge-2.git`
+   4. Find the project directory from where you are tunning the git bash.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## API documentation
+ The API used in this project is under this [url](https://jsonplaceholder.typicode.com/guide/). This project consumes 1 endpoint listed below:
 
-### `npm test`
+ - [Get photos by album ID](https://jsonplaceholder.typicode.com/albums/:albumID/photos)
+## Running the project
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+  - Just run `index.html` from the cloned project
 
-### `npm run build`
+  - OR simply use heroku to run [the hosted version](#)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+ 
+## Built With
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+   * React
+   * Hosting service: heroku
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Contributing
+   1. Fork it
+   2. Create a branch (git checkout -b my_branch_name)
+   3. Commit your changes (git commit -m "Added Some stuffs")
+   4. Push to the branch (git push origin git checkout -b my_branch_name)
+   5. Create an [Issue](https://github.com/hakoemmy/challenge-2/issues) with a link to your branch
 
-### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+## Author
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+[Emmanuel HAKORIMANA](https://github.com/hakoemmy)
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+## License
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+This project is licensed under the MIT License - see the [LICENSE](LICENCE.md) file for details
