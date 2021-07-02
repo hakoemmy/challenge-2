@@ -10,7 +10,7 @@ const PhotosArea = ({ foundPhotos, albumId, error, loading }) => {
                    {
                      foundPhotos.length!== 0?
                       foundPhotos.map((photo) =>   
-                       <figure className="column" key ={photo.id}>
+                       <figure className="column" key ={photo.thumbnailUrl}>
                          <p><img src={photo.thumbnailUrl} width="200" height="200" alt="Photo"/> </p>
                          <figcaption>{photo.title}</figcaption>
                         </figure> 

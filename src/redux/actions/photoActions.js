@@ -10,7 +10,7 @@ import {
       const searchPhotosResponse = await apiCall.get(`/albums/${albumID}/photos`);
       dispatch({
         type: SEARCH_PHOTO_SUCCESS,
-        payload: searchPhotosResponse
+        payload: searchPhotosResponse.data
       });
     } catch (error) {
       dispatch({
